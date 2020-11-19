@@ -275,17 +275,12 @@
                         <button class="btn btn-default bg-warning cart-sm-button">+</button>
                       </div>
                       <div class="col-sm-3 col-3 my-auto col-md-3 mr-n3 my-auto">
-                        <div class="form-group my-auto">
-                          <input
-                            type="text"
-                            class="form-control"
-                            name=""
-                            id=""
-                            aria-describedby="helpId"
-                            placeholder=""
-                            value="1"
-                            disabled
-                          />
+                        <div class="form-group my-auto d-flex justify-content-end">
+                          <select class="form-control" name="" id="">
+                            <option>Regular</option>
+                            <option>Dummy One</option>
+                            <option>Dummy Two</option>
+                          </select>
                         </div>
                       </div>
                       
