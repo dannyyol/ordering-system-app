@@ -188,15 +188,14 @@
               <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                   <div class="modal-header bg-warning">
-                    <h6 class="modal-headings pt-2 ml-n2" id="exampleModalLongTitle">Customize Your Food</h6>
+                    <h6 class="modal-headings pt-2" id="exampleModalLongTitle">Customize Your Food</h6>
                     <!-- <button type="button" class="btn btn-danger text-white" data-dismiss="modal">Close</button> -->
-                    <button class="btn btn-danger text-white float-right mr-n2"  data-dismiss="modal" style="padding-left: 40px;padding-right: 40px">Close</button>
+                    <button class="btn btn-danger text-white float-right"  data-dismiss="modal" style="padding-left: 40px;padding-right: 40px">Close</button>
 
 
                   </div>
                   <div class="modal-body">
-
-                    <div class="row">
+                    <div class="row  mb-3">
                       <div class="col-md-2 col-3">
                         <img src="images/big-mac.png" alt="" srcset="" width="100" />
                       </div>
@@ -212,79 +211,78 @@
                       </div>
                     </div>
 
-                    <hr>
+                      <table class="table table-inverse table-responsive mt-3">
+                        <tr>
+                        <td scope="row">
+                            <img src="images/burger_ingredients.png" alt="" srcset="" width="" class="cart_image" />
+                          </td>
+                          <td class="align-middle">
+                            Carrots & Onions
+                          </td>
+                          <td  class="align-middle  pr-2">
+                             <button class="btn btn-default bg-warning cart-sm-button"> - </button>
+                          </td>
+                          <td  class="align-middle  pr-4">
+                            <button class="btn btn-default bg-warning cart-sm-button">+</button>
+                          </td>
+                          <td  class="pr-4 align-middle">
+                            <div class="form-group my-auto d-flex justify-content-end">
+                              <select class="form-control" name="" id="">
+                                <option>Regular</option>
+                                <option>Dummy One</option>
+                                <option>Dummy Two</option>
+                              </select>
+                            </div>
+                          </td>
+                        <td class="align-middle" style="margin:auto;text-align:right;">
+                            <button title="Delete" class="btn btn-danger" style="padding-left: 13px;padding-right: 13px">
+                              <i class="fa fa-trash-o" aria-hidden="true"></i> Remove
+                            </button>
+                          </td>
+                        </tr>
+                        <!--  -->
 
-                    <div class="row">
-                      <div
-                        class="col-md-2 col-3 col-3 input-box-customization"
-                      >
-                        <img src="images/burger_ingredients.png" alt="" srcset="" width="" class="cart_image" />
-                      </div>
-
-                      <div
-                        class="col-md-4 my-auto col-sm-4 ml-1 col-4 input-box-customization customize-food-name"
-                      >
-                        Carrots & Onions
-                      </div>
-
-                      <div
-                        class="col-2 col-md-4 my-auto input-box-customization plus-minus-button"
-                      >
-                        <button
-                          class="btn btn-default bg-warning cart-sm-button"
-                        >
-                          -
-                        </button>
-                        <button class="btn btn-default bg-warning cart-sm-button">+</button>
-                      </div>
-                      <div class="col-sm-3 col-3 my-auto col-md-3 mr-n3">
-                        <div class="form-group my-auto d-flex justify-content-end">
-                          <select class="form-control" name="" id="">
-                            <option>Regular</option>
-                            <option>Dummy One</option>
-                            <option>Dummy Two</option>
-                          </select>
-                        </div>
-                      </div>
-                      
-                    </div>
-
-                    <hr>
-
-                    <div class="row">
-                      <div
-                        class="col-md-2 col-3 col-3 input-box-customization"
-                      >
-                        <img src="images/Rectangle-10.png" alt="" srcset="" width="" class="cart_image" />
-                      </div>
-
-                      <div
-                        class="col-md-4 my-auto col-sm-4 ml-1 col-4 input-box-customization customize-food-name"
-                      >
+                        <tr>
+                        <td scope="row">
+                          <img src="images/Rectangle-10.png" alt="" srcset="" width="" class="cart_image" />
+                        </td>
+                          <td class="align-middle">
                         Mac Sauce
-                      </div>
+                          </td>
+                          <td  class="align-middle  pr-2">
+                             <button class="btn btn-default bg-warning cart-sm-button"> - </button>
+                          </td>
+                          <td  class="align-middle  pr-4">
+                            <button class="btn btn-default bg-warning cart-sm-button">+</button>
+                          </td>
+                          <td  class="pr-4 align-middle">
+                            <div class="form-group my-auto d-flex justify-content-end">
+                              <select class="form-control" name="" id="">
+                                <option>Regular</option>
+                                <option>Dummy One</option>
+                                <option>Dummy Two</option>
+                              </select>
+                            </div>
+                          </td>
+                        <td class="align-middle" style="margin:auto;text-align:right;">
+                            <button title="Delete" class="btn btn-danger" style="padding-left: 13px;padding-right: 13px">
+                              <i class="fa fa-trash-o" aria-hidden="true"></i> Remove
+                            </button>
+                          </td>
+                        </tr>
 
-                      <div
-                        class="col-2 col-md-4 my-auto input-box-customization plus-minus-button"
-                      >
-                        <button
-                          class="btn btn-default bg-warning cart-sm-button"
-                        >
-                          -
-                        </button>
-                        <button class="btn btn-default bg-warning cart-sm-button">+</button>
-                      </div>
-                      <div class="col-sm-3 col-3 my-auto col-md-3 mr-n3 my-auto">
-                        <div class="form-group my-auto d-flex justify-content-end">
-                          <select class="form-control" name="" id="">
-                            <option>Regular</option>
-                            <option>Dummy One</option>
-                            <option>Dummy Two</option>
-                          </select>
-                        </div>
-                      </div>
+                        
+
+
+
+
                       
-                    </div>
+                       
+
+                        
+
+                      </table>
+
 
                     <hr>
 
@@ -337,7 +335,8 @@
                               id=""
                               aria-describedby="helpId"
                               placeholder=""
-                              style="max-width: 50px"
+                              value="2"
+                              style="max-width: 50px;text-align:center;"
                               />
                               <button class="btn btn-warning cart-sm-button">+</button>
                           </div>
@@ -391,7 +390,8 @@
                               id=""
                               aria-describedby="helpId"
                               placeholder=""
-                              style="max-width: 50px"
+                              value="2"
+                              style="max-width: 50px;text-align:center;"
                               />
                               <button class="btn btn-warning cart-sm-button">+</button>
                           </div>
@@ -437,9 +437,10 @@
                               class="form-control ml-1 mr-1"
                               name=""
                               id=""
+                              value="1"
                               aria-describedby="helpId"
                               placeholder=""
-                              style="max-width: 50px"
+                              style="max-width: 50px;text-align:center;"
                               />
                               <button class="btn btn-warning cart-sm-button">+</button>
                           </div>
