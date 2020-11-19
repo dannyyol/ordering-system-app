@@ -288,7 +288,7 @@
 
                     <div class="back-button-size">
                       <router-link to="" class="btn btn btn-lg text-dark border-3 border-dark back-hover-animation" id="btn">Reset</router-link>
-                      <router-link to="/products" id="btn" class="btn btn-success confirm-button ml-4 confirm-button order-button-cart-size" data-dismiss="modal"
+                      <router-link to="/products" id="btn" class="cartbox-close btn btn-success confirm-button ml-4 confirm-button order-button-cart-size" data-dismiss="modal"
                         >Confirm Changes</router-link
                       >
                     </div>
