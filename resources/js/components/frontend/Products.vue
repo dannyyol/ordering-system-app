@@ -9,10 +9,10 @@
       </div>
 
       <!-- Page Content -->
-      <div class="container" style="width:100%;">
+      <div class="container" style="">
         <div class="row">
           <div
-            class="col-xl-2 col-lg-3 col-sm-4 col-5 col-4 bg"
+            class="col-xl-2 col-lg-3 col-sm-4 col-5 bg"
             style="height: 600px"
           >
             <div

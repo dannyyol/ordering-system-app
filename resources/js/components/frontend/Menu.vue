@@ -11,7 +11,7 @@
       <div class="container" style="">
         <div class="row">
           <div
-            class="col-xl-2 col-lg-3 col-sm-4 col-4 bg"
+            class="col-xl-2 col-lg-3 col-sm-4 col-5 bg"
             style="height: 600px"
           >
             <div
@@ -138,7 +138,7 @@
 
           <!-- /.col-lg-3 -->
 
-          <div class="col-xl-10 col-lg-9 col-sm-8 col-8 mb-5">
+          <div class="col-xl-10 col-lg-9 col-sm-8 col-7 mb-5">
             <div class="row">
               <div class="col-sm-12 col-md-7 col-lg-7 heading-products">
                 <h3 v-if="show_burger">{{ title_1  }}</h3>
@@ -239,7 +239,7 @@
                   
                   <div class="row ">
                       <div
-                        class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-2"
+                        class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-2"
                         v-for="item in foods"
                         :key="item.id"
                       >
@@ -274,7 +274,7 @@
               <article class="tab-pane fade show" id="rectangle-2">
                 <sequential-entrance fromRight>
                   <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-2 col-margin">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-2 col-margin">
                       <div class="card h-100 main-box-content">
                         <router-link to="/products">
                           <a data-toggle="modal--0" data-target="#modalQuickView">
@@ -292,7 +292,7 @@
                       </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-2 col-margin">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-2 col-margin">
                       <div class="card h-100 main-box-content">
                         <router-link to="/products">
                             <a href="#">
@@ -309,7 +309,7 @@
                       </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-2 col-margin">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-2 col-margin">
                       <div class="card h-100 main-box-content">
                         <router-link to="/products">
                           <a href="#">
@@ -327,7 +327,7 @@
                     </div>
 
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-2 col-margin">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-2 col-margin">
                       <div class="card h-100 main-box-content">
                         <router-link to="/products">
                           <a href="#">
@@ -345,7 +345,7 @@
                     </div>
 
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-2 col-margin">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-2 col-margin">
                       <div class="card h-100 main-box-content">
                         <router-link to="/products">
                           <a href="#">
@@ -362,7 +362,7 @@
                       </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-2 col-margin">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-2 col-margin">
                       <div class="card h-100 main-box-content">
                         <router-link to="/products">
                           <a href="#">
