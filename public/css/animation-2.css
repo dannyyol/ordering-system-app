@@ -1,0 +1,170 @@
+.tabs-animated {
+    overflow: hidden;
+}
+
+.tab-pane {
+    height: 250px;
+    width: 100%;
+}
+
+#tab1 {
+    background: #dddddd;
+}
+
+#tab2 {
+    background: #cccccc;
+}
+
+#tab3 {
+    background: #bbbbbb;
+}
+
+#tab4 {
+    background: #aaaaaa;
+}
+
+
+
+
+
+/* cart animations */
+/* cart animatioin */
+.footer-top-2 {}
+
+.footer-top-2 #addtocart {
+    /* padding: 20px; */
+    border: none;
+    /* background: #d5d8e7; */
+    position: relative;
+    outline: none;
+    border-radius: 5px;
+    color: #292d48;
+    font-size: 18px;
+}
+
+.footer-top-2 #addtocart .cart-item {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: -10px;
+    right: -10px;
+}
+
+.footer-top-2 #addtocart .cart-item:before {
+    content: '1';
+    display: block;
+    line-height: 24px;
+    height: 24px;
+    width: 24px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #f13e07d7;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.footer-top-2 button.sendtocart .cart-item {
+    display: block;
+    animation: xAxis 1s forwards cubic-bezier(1, 0.44, 0.84, 0.165);
+}
+
+.footer-top-2 button.sendtocart .cart-item:before {
+    animation: yAxis 1s alternate forwards cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cart {
+    /* background: #292d48; */
+    width: 200px;
+    border-radius: 5px;
+}
+
+.cart i {
+    font-size: 25px;
+    color: white;
+}
+
+.cart:before {
+    content: attr(data-totalitems);
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    left: 102px;
+    background: #f13e07d7;
+    line-height: 24px;
+    padding: 0 5px;
+    height: 24px;
+    min-width: 24px;
+    color: white;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.cart.shake {
+    animation: shakeCart 0.4s ease-in-out forwards;
+}
+
+@keyframes xAxis {
+    100% {
+        transform: translateX(calc(100% - 250vw));
+    }
+}
+
+@keyframes yAxis {
+    100% {
+        /* transform: translateY(calc(-50vh + 75px)); */
+        transform: translateY(calc(-20vh + 110px));
+
+    }
+}
+
+@keyframes shakeCart {
+    25% {
+        transform: translateX(10px);
+    }
+
+    50% {
+        transform: translateX(-10px);
+    }
+
+    75% {
+        transform: translateX(2px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+/* shake button animation  by using #btn*/
+ #btn:hover {
+     animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+     transform: translate3d(0, 0, 0);
+     perspective: 1000px;
+ }
+
+ @keyframes shake {
+
+     10%,
+     90% {
+         transform: translate3d(-1px, 0, 0);
+     }
+
+     20%,
+     80% {
+         transform: translate3d(2px, 0, 0);
+     }
+
+     30%,
+     50%,
+     70% {
+         transform: translate3d(-2px, 0, 0);
+     }
+
+     40%,
+     60% {
+         transform: translate3d(2px, 0, 0);
+     }
