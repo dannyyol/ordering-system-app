@@ -12,7 +12,7 @@
       <div class="container" style="">
         <div class="row">
           <div
-            class="col-xl-2 col-lg-3 col-sm-4 col-4 bg"
+            class="col-xl-2 col-lg-3 col-sm-4 col-5 col-4 bg"
             style="height: 600px"
           >
             <div
@@ -139,7 +139,7 @@
 
           <!-- /.col-lg-3 -->
 
-          <div class="col-xl-10 col-lg-9 col-sm-8 col-8 mb-5">
+          <div class="col-xl-10 col-lg-9 col-sm-8 col-7 mb-5">
             <sequential-entrance fromLeft>
               <div class="row">
                 <div class="col-sm-12 col-md-5 heading-products">
@@ -501,7 +501,7 @@
                 <sequential-entrance fromRight>
                   <div class="row ">
                       <div
-                        class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-2 col-margin"
+                        class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-2 col-margin"
                         v-for="item in foods1"
                         :key="item.id"
                       >
@@ -535,7 +535,7 @@
                 <sequential-entrance fromRight>
                   <div class="row">
                     <div
-                        class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6 mb-2 col-margin"
+                        class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-2 col-margin"
                         v-for="item in foods2"
                         :key="item.id"
                       >
