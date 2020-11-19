@@ -235,7 +235,7 @@
                             </div>
                           </td>
                         <td class="align-middle" style="margin:auto;text-align:right;">
-                            <button title="Delete" class="btn btn-danger" style="padding-left: 13px;padding-right: 13px">
+                            <button title="Delete" class="btn btn-danger" style="padding-left: 12px;padding-right: 12px">
                               <i class="fa fa-trash-o" aria-hidden="true"></i> Remove
                             </button>
                           </td>
@@ -265,7 +265,7 @@
                             </div>
                           </td>
                         <td class="align-middle" style="margin:auto;text-align:right;">
-                            <button title="Delete" class="btn btn-danger" style="padding-left: 13px;padding-right: 13px">
+                            <button title="Delete" class="btn btn-danger" style="padding-left: 12px;padding-right: 12px">
                               <i class="fa fa-trash-o" aria-hidden="true"></i> Remove
                             </button>
                           </td>
