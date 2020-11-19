@@ -226,7 +226,7 @@
                             <button class="btn btn-default bg-warning cart-sm-button">+</button>
                           </td>
                           <td  class="pr-4 align-middle">
-                            <div class="form-group my-auto d-flex justify-content-end">
+                            <div class="form-group my-auto">
                               <select class="form-control" name="" id="">
                                 <option>Regular</option>
                                 <option>Dummy One</option>
