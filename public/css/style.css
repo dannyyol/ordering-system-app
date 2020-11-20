@@ -1144,15 +1144,12 @@ button.cartbox-close {
     border-radius: 10px !important;
     border: 3px solid #e8a901 !important;
 }
-
 .modal-content {
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
     border-radius: 0px !important;
-    min-width: 100% !important;
+    min-width: 800px !important;   
 }
-
-
 .modal-dialog {
     min-width: 53%;
     margin: 30px auto;
@@ -1162,4 +1159,12 @@ button.cartbox-close {
 }
 .modal-headings {
     font-weight: 600;
+}
+
+.empty__cart{
+    padding: 10px clamp(20px, 10vw, 100px);
+}
+
+.modal {
+    z-index: 1051 !important;
 }
